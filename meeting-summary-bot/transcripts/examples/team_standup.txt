@@ -1,0 +1,29 @@
+Meeting: Weekly Team Standup
+Date: April 28, 2026
+Attendees: Lena (Team Lead), Raj (Backend), Nina (Frontend), Carlos (DevOps)
+
+Lena: Quick round — what's everyone on this week?
+
+Raj: Finishing the auth refactor. Should be in review by Wednesday. One blocker: I need Carlos to set up the staging environment before I can test the token refresh flow.
+
+Carlos: I can have staging ready by Tuesday afternoon.
+
+Raj: Perfect, that works.
+
+Nina: I'm working on the dashboard filters. No blockers right now. Should be done by Friday.
+
+Carlos: Deployment pipeline is mostly stable. I'm adding alerting for failed jobs today. One thing — we need to decide if we're moving to the new monitoring tool or staying with the current one. The trial ends on Friday.
+
+Lena: I'll check with management today and get back to everyone before end of day. We can't let the trial lapse without a decision.
+
+Raj: Also, we haven't had a retrospective in six weeks. Worth scheduling?
+
+Lena: Yes, good call. I'll set one up for next Friday. Nina, can you facilitate?
+
+Nina: Sure, I can do that.
+
+Lena: Great. Any other blockers?
+
+Carlos: Nothing else from me.
+
+Lena: Alright, short and sharp. See everyone next week.

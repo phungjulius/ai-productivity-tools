@@ -1,0 +1,41 @@
+Meeting: Q2 Product Review
+Date: April 22, 2026
+Attendees: Sara (PM), David (Engineering Lead), Mia (Design), Tom (QA)
+
+Sara: Alright, let's get started. Main goal today is to align on what's shipping in Q2 and flag any blockers.
+
+David: From engineering, the new search feature is on track. We should have a testable build by end of next week.
+
+Mia: Design is done on search. I handed off the final specs to David on Monday.
+
+Tom: QA needs at least two weeks for a proper regression run. If the build lands next Friday, that puts us tight against the May 15 deadline.
+
+Sara: Okay, so we need the build no later than May 1 to give Tom enough runway. David, can we commit to that?
+
+David: Yes, May 1 is doable. I'll flag it to the team today.
+
+Sara: Good. What about the onboarding flow redesign?
+
+Mia: Still in review. I need feedback from Sara on the revised wireframes before I can finalize.
+
+Sara: I'll review them by Thursday this week.
+
+Tom: The onboarding flow won't make Q2 then, right? There's not enough time for QA after design finalizes.
+
+Sara: Correct. Onboarding moves to Q3. Let's make that official.
+
+David: Agreed. We'll pull it from the Q2 board.
+
+Sara: Any other blockers?
+
+David: One thing — we still don't have a decision on which analytics provider to use. It affects the search feature instrumentation.
+
+Sara: I'll get that decided by next Monday. I'll loop in finance and come back with a recommendation.
+
+Tom: Also, we never resolved who owns the release checklist process. It's been passed around.
+
+Sara: Good point. Let's say David owns it going forward. David, okay with that?
+
+David: Fine by me.
+
+Sara: Okay, I think that covers everything. Let's sync again next Thursday.
