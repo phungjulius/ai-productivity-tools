@@ -1,0 +1,10 @@
+Fix the login timeout bug reported by three users this week
+Decide on the final color scheme for the redesigned dashboard — design team is blocked
+Review pull request #47 from Raj — it has been open for two days
+Update the API documentation to reflect the new authentication flow
+Waiting for the security audit results before we can deploy to production
+Schedule a demo of the new reporting feature for the sales team
+Respond to the performance review questions sent by HR — due this Friday
+The staging environment has been down since Tuesday — needs urgent attention
+Align with the product manager on scope changes for the next sprint
+Send the monthly usage report to all department heads
