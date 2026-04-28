@@ -13,18 +13,26 @@ Takes a plain-text meeting transcript and generates a structured summary with ke
 python meeting-summary-bot/summarize.py transcript.txt --print
 ```
 
-### [Email Draft Assistant](./email-draft-assistant/) *(coming soon)*
-Describe what you need to say and get a professional email draft back. Supports tone options — formal, concise, or follow-up — and works with both Claude and OpenAI.
+### [Email Draft Assistant](./email-draft-assistant/)
+Describe what you need to say and get a professional email draft back. Supports three tone modes — formal, concise, and follow-up — and works with both Claude and OpenAI.
 
-### [Business Prompt Library](./prompt-library/) *(coming soon)*
-A structured collection of tested, documented prompts for common business tasks: summarization, weekly reports, meeting agendas, and decision briefings. Designed to help teams adopt AI tools with ready-made, reliable prompts.
+```bash
+python email-draft-assistant/draft.py "Follow up on the project status meeting" --tone followup --sender "Julius"
+```
 
-### [Workflow Automation Agent](./workflow-agent/) *(coming soon)*
-A lightweight Python agent that chains multiple AI steps together — reads a list of tasks or emails, processes and prioritizes them using an AI API, and outputs a structured markdown report.
+### [Business Prompt Library](./prompt-library/)
+A structured collection of tested, documented prompts for common business tasks: meeting agendas, weekly status reports, decision briefs, email thread summaries, and onboarding guides. Each prompt includes a full example input and output — copy, fill in the blanks, and run in any AI tool.
+
+### [Workflow Automation Agent](./workflow-agent/)
+A lightweight AI agent that reads a list of tasks or action items, classifies each one by priority and category, writes a one-sentence action summary for each, and produces a structured markdown report with a recommended daily focus.
+
+```bash
+python workflow-agent/agent.py tasks.txt --print
+```
 
 ## Getting started
 
-Each tool has its own folder with a README, setup instructions, and example files. Clone the full repo and navigate to the tool you want to use:
+Each tool has its own folder with a README, setup instructions, and example files. Clone the full repo and navigate to the tool you want:
 
 ```bash
 git clone https://github.com/phungjulius/ai-productivity-tools.git
@@ -45,9 +53,9 @@ Each tool has its own `requirements.txt` and `.env.example`.
 ai-productivity-tools/
 ├── README.md
 ├── meeting-summary-bot/      # transcript → structured summary
-├── email-draft-assistant/    # description → professional email
-├── prompt-library/           # tested prompts for business use cases
-└── workflow-agent/           # multi-step AI automation pipeline
+├── email-draft-assistant/    # description → professional email draft
+├── prompt-library/           # tested prompts for common business tasks
+└── workflow-agent/           # multi-step AI task prioritisation agent
 ```
 
 ## Author
